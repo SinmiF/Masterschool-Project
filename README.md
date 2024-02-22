@@ -8,7 +8,10 @@
 - [Data Cleaning and Data Analysis](#data-cleaning-and-data-analysis)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
+- [Google Spreadsheet](#google-spreadsheet)
 - [Tableau Visualization](#tableau-visualization)
+    - [Visualize the Confidence Intervals](#visualize-the-confidence-intervals)
+    - [Novelty Test](#novelty-test)
 - [Recommendation](#recommendation)
 
 ## Project Overview
@@ -84,6 +87,9 @@ Calculate A/B test statistics:
 2. What is the 95% confidence interval for the difference in the conversion rate between the treatment and control (treatment-control)?
 3. Conduct a hypothesis test to see whether there is a difference in the average amount spent per user between the two groups. What are the resulting p-value and conclusion?
 4. What is the 95% confidence interval for the difference in the average amount spent per user between the treatment and the control (treatment-control)?
+<img width="570" alt="Confidence Interval Amt Spent" src="https://github.com/SinmiF/Masterschool-Project/assets/160603373/a64ce34d-ee8f-4e05-970b-066ad8776e5f">
+<img width="303" alt="Confidence Interval Conversion" src="https://github.com/SinmiF/Masterschool-Project/assets/160603373/8f230857-a7e4-487f-88ad-7f8b6054cf2b">
+<img width="456" alt="Hypothesis Test" src="https://github.com/SinmiF/Masterschool-Project/assets/160603373/29f60214-a76d-4095-868c-2ab1a996f4cd">
 
 
 ## Tableau Visualization
@@ -101,6 +107,21 @@ Calculate A/B test statistics:
 
 5. A visualization to explore the relationship between the test metrics (conversion rate and average amount spent) and the user’s country.
 <img width="674" alt="Relationship Test Metrics(Country)" src="https://github.com/SinmiF/Masterschool-Project/assets/160603373/67d6c0d4-e1bf-4683-80af-33d62bff4728">
+
+### Visualize the Confidence Intervals
+1. The confidence intervals for the difference in conversion rate
+
+<img width="677" alt="Confidencence Interval Conversion Rate" src="https://github.com/SinmiF/Masterschool-Project/assets/160603373/13b8fa85-b68c-4301-960f-9391447cce32">
+ 
+2. The difference in the average amount spent between the two groups
+
+<img width="674" alt="Confidence Interval Amount Spent" src="https://github.com/SinmiF/Masterschool-Project/assets/160603373/a80f1873-6445-45ea-98b6-b7cee599e489">
+
+### Novelty Test
+Check for differences in the key metrics between the groups over time. If we notice a novelty effect, that means that the effectiveness of the banner is short-lived, which may lead us to conclude that it isn’t worth launching.
+
+<img width="676" alt="Novelty Test" src="https://github.com/SinmiF/Masterschool-Project/assets/160603373/4601d8f6-ffd0-4143-95d7-a761b5924b72">
+
 
 ## Recommendation
 Based on the results of the A/B test, I do not recommend launching the banner in its current form. The
